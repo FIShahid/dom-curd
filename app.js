@@ -1,4 +1,3 @@
-
 let count = 0;
 
 document.getElementById("add-button").addEventListener("click", function (e) {
@@ -21,7 +20,7 @@ document.getElementById("add-button").addEventListener("click", function (e) {
     const allDoneButton = document.getElementsByClassName("done-button");
 
     for (const button of allDeleteButton) {
-      console.log(button);
+      //console.log(button);
       button.addEventListener("click", function (e) {
         e.target.parentNode.parentNode.style.display = "none";
         // console.log(e.target.parentNode.parentNode);
